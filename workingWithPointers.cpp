@@ -20,5 +20,8 @@ int main(){
 
     cout << pAge << endl;
 
+    // dereferencing the pointer
+    cout << *pAge << endl;
+
     return 0;
 }
