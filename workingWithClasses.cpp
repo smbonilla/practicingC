@@ -34,7 +34,7 @@ int main(){
     // book2.pages = 100; 
 
     cout << book1.title << endl;
-    cout << book2.title << endl;
+    cout << book2.pages << endl;
 
     return 0;
 }
