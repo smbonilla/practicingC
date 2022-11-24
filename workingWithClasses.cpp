@@ -11,6 +11,14 @@ class Book {
 
         // constructor function that is called everytime an object
         // from this class is created
+        // if nothing passed in, then it still initializes the object
+        // but without any information! 
+        Book() {
+            title = "no title";
+            author = "no author";
+            pages = 0;
+        }
+
         Book(string aTitle, string aAuthor, int aPages) {
             
             title = aTitle;
