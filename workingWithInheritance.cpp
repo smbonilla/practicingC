@@ -21,15 +21,19 @@ class ItalianChef : public Chef{
         void makeLasagna(){
             cout << "The chef makes Lasagna" << endl;
         }
+        // overriding
+        void makeSpecialDish(){
+            cout << "The chef makes clam linguini" << endl;
+        }
 };
 
 int main(){
 
     Chef chef;
-    chef.makeChicken();
+    chef.makeSpecialDish();
     
     ItalianChef italianChef;
-    italianChef.makeChicken();
+    italianChef.makeSpecialDish();
 
     return 0;
 }
